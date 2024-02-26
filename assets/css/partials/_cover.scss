@@ -1,0 +1,43 @@
+#cover1{
+    background-image: url('../img/cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding-top: 78px;
+    .shader{ 
+        background-color:rgba(0,0,0, 0.85);
+        width: inherit;
+        padding: 70px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .coverSadrzaj{
+        width: 30%;
+        text-align: center;
+        color: $primary-color;
+        font-weight: 600;
+        h1{ 
+            margin: 10px 0px;
+            font-size: 30px;
+            text-wrap: wrap;
+            span{ 
+                color: $span-color;
+            }
+        }
+        p{ 
+            font-size: 20px;
+            text-wrap: wrap;
+            span{ 
+                color: $span-color;
+            }
+        }
+        .imgDrzac{ 
+            width: 100%;
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

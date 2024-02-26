@@ -1,0 +1,131 @@
+#Contact{
+    width: 100%;
+    padding: 78px 0px 20px;
+    background-color: $secondary-color;
+    .ContactNaslov{
+        width: 100%;
+        text-align: center;
+        color: $primary-color;
+        margin-bottom: 30px;
+        h3{
+            font-size: 30px;
+            letter-spacing: 2px;
+          }
+      }
+    .drzacContact{
+        width: 80%;
+        margin: 0px auto;
+        .pozadinaForma{
+            width: 100%;
+            background-color: rgba($primary-color, 0.1);
+            border-radius: 7px;
+            box-shadow: 0px 0px 30px rgb(0, 0, 0);
+            padding: 20px;
+            form{
+                width: 100%;
+                .red{
+                    width: 90%;
+                    margin: 0px auto;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    input[type=text]{
+                        margin: 30px 0px;
+                        width: 42.5%;
+                        padding: 15px 5px;
+                        border-radius: 7px;
+                        border: 2px solid $gradient-color2;
+                        background-color: $secondary-color;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 20px;
+                        &:focus{
+                            scale: 1.015;
+                            transition: 0.5s;
+                            box-shadow: 0px 0px 20px black;
+                          }
+                        
+                      }
+                      #poruka, #email{
+                        width: 90%;
+                        margin: 30px 0px;
+                        padding: 15px 5px;
+                        border-radius: 7px;
+                        border: 2px solid $gradient-color2;
+                        background-color: $secondary-color;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 20px;
+                        &:focus{
+                            scale: 1.015;
+                            transition: 0.5s;
+                            box-shadow: 0px 0px 20px black;
+                          }}
+                      #send{
+                        width: 90px;
+                        margin: 20px auto;
+                        padding: 10px 3px;
+                        color: $gradient-color2;
+                        background-color: $secondary-color;
+                        border-radius: 10px;
+                        border: 2px solid $gradient-color2;
+                        letter-spacing: 1px;
+                        font-size: 20px;
+                        &:hover{
+                            background-color: $dugme-color;
+                            transition: 0.6s;
+                            cursor: pointer;
+                            color: $secondary-color;
+                            font-weight: bold;
+                            border-color: $secondary-color;
+                        }
+                      }
+                  }
+              }
+          }
+      }
+      .linkovi{
+        width: 100%;
+        color: $secondary-color;
+        margin-top: 40px;
+        .linkNaslov{
+            border-bottom: 2px solid $dugme-color;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px;
+           
+            h2{
+                color: $primary-color;
+                font-size: 22px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+              }
+            
+          }
+
+        .linkoviDrzac{
+            width: 80%;
+            margin: 0px auto;
+            padding-top: 20px;
+            ul{ 
+                width: 100%;
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                li{ 
+                    a{
+                        text-decoration: none;
+                        color: $primary-color;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        &:hover{
+                            color: $span-color;
+                            transition: 0.55s;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }

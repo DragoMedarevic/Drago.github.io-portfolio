@@ -1,0 +1,439 @@
+@media only screen and (max-width: 1200px){
+    #Services{
+        .drzacServis{ width: 70%; 
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .ServisBlok{width: 47%;
+                margin-top: 20px;
+            }
+        }
+    }
+    #Projects{
+    .projectsDrzac{
+        flex-direction: column;
+        width: 68%;
+        .projectBlok{
+            width: 100%;
+            p{
+                font-size: 16px;
+            }
+        }
+        .projectBlok2{
+            width: 100%;
+            p{
+                font-size: 16px;
+            }
+        }
+    }}
+}
+@media only screen and (max-width: 1020px){
+    header{
+        .drzacHeder{
+            width: 68%;
+            flex-direction: column;
+            justify-content: center;
+            nav{
+                width: 100%;
+            }
+        }
+    }
+    #AboutMe{
+        .drzacOmeni{
+            .red{ flex-direction: column;
+                justify-content: center;
+                width: 85%;
+                margin: 20px auto 0px;
+                .blokOmeniInfo{
+                    font-size: 18px;
+                    width: 100%;
+                    text-align: center;
+                    .MarginP{
+                        margin-top: 0px;
+                    }
+                }
+                .blokOmeni{
+                    font-size: 18px;
+                    width: 100%;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    #Services{
+        h2{
+            font-size: 22px;
+        }
+        .drzacServis{ padding: 18px 0px;
+            .ServisBlok{
+                i{
+                    font-size: 25px;
+                }
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    #cover1{
+        .shader{ 
+            .coverSadrzaj{ width: 35%;
+                h1{
+                    font-size: 22px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    #AboutMe{
+        .naslov{
+            h2{
+                font-size: 22px;
+            }
+        } 
+    }
+    #Projects{
+        .ProjectNaslov{
+            h2{
+                font-size: 22px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }   
+    }
+    #Contact{
+        .ContactNaslov{
+            h2{
+                font-size: 22px;
+            }
+        } 
+
+        .drzacContact{
+            width:70%;
+            .pozadinaForma{
+               form{
+                .red{ 
+                    flex-direction: column;
+                    input[type=text]{
+                        width: 90%;
+                        margin: 15px 0px;
+                        font-size: 16px;
+                    }
+                    #email, #poruka{
+                        margin: 15px 0px;
+                        font-size: 16px;
+                    }
+                    #send{
+                        margin: 15px auto;
+                        font-size: 16px;
+                        padding: 7px 3px;
+                    }
+
+                }
+            }
+            }
+        }
+        .linkovi{
+            .linkNaslov{
+                h2{
+                    font-size: 18px;
+                }
+            }
+            .linkoviDrzac{
+                ul{
+                    flex-wrap: wrap;
+                    li{
+                        width: 20%;
+                        text-align: center;
+                        margin-bottom: 5px;
+                    }
+
+                }
+            }
+
+        } 
+         
+    } 
+    }
+    @media only screen and (max-width: 650px){
+        header{ 
+            position: static;
+            .drzacHeder{
+                nav{
+                    ul{
+                        flex-direction: column;
+                        li{
+                            width: 100%;
+                            text-align: center;
+                            a{
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #cover1{
+            padding-top: 0px;
+            .shader{ padding: 35px 0px;
+                .coverSadrzaj{
+                    width: 50%;
+                    h1{
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        #AboutMe{ padding: 35px 0px;
+                .drzacOmeni{
+                    width: 90%;
+                
+                .red{ width:100%;
+                    .blokOmeni{
+                        width: 100%;
+                    }
+                    .blokOmeniInfo{
+                        width: 100%;
+                    }
+                }}
+        }
+        #Services{ padding: 35px 0px;
+            .drzacServis{
+                width: 90%;
+            }
+        }
+        #Contact{
+            .drzacContact{
+                width: 90%;
+            }
+            .linkovi{
+                .linkoviDrzac{
+                    ul{
+                        flex-direction: column;
+                        li{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        #Projects{ padding: 35px 0px;
+           .projectsDrzac{
+            width: 90%;
+        }
+        }
+        #Contact{
+            padding-top: 35px;
+        }
+    }
+    @media only screen and (max-width: 450px){
+        #cover1{
+            .shader{
+                .coverSadrzaj{
+                    width: 80%;
+                }
+            }
+        }  
+        #AboutMe{
+            .naslov{
+                h2{
+                    font-size: 18px;
+                    letter-spacing: normal;
+                }
+            }
+            .drzacOmeni{
+                width: 95%;
+                .red{
+                    .blokOmeni, .blokOmeniInfo{
+                        padding: 10px;
+                        font-size: 15px;
+                    }
+                    
+                }
+            }
+        } 
+        #Services{
+            h2{
+                font-size: 18px;
+                letter-spacing: normal;
+            }
+            .drzacServis{
+                flex-direction: column;
+                .ServisBlok{
+                    width: 100%;
+                    i{
+                        font-size: 20px;
+                    }
+                    h3{
+                        font-size: 16px;
+                        letter-spacing: normal;
+                    }
+                }
+            }
+        }  
+        #Projects{
+            .ProjectNaslov{
+                h2{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        #Contact{
+            .ContactNaslov{
+                h2{
+                    font-size: 18px;
+                }
+            }
+            .drzacContact{
+                .pozadinaForma{
+                    padding: 15px 0px;
+                }
+            }
+            
+        }      
+    }
+    @media only screen and (max-width: 300px){
+        ::-webkit-scrollbar {
+            width: 5px;
+            border-radius: 3px;
+          }
+        header{
+            .drzacHeder{
+                nav{
+                    ul{
+                       li{
+                        a{
+                            font-size: 11px;
+                        }
+                    }
+                    }
+                }
+            }
+        }
+        #cover1{
+            .shader{ padding: 20px 0px;
+                .coverSadrzaj{ width: 90%;
+                    h1{
+                        font-size: 13px;
+                    }
+                    p{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+        #AboutMe{
+            padding: 15px 0px;
+            .drzacOmeni{
+                width: 95%;
+                .red{
+                    .blokOmeni, .blokOmeniInfo{
+                        padding: 0px;
+                        border: 0px;
+                        box-shadow: none;
+                        font-size: 12px;
+                    }
+                    .blokOmeni{
+                        .dugme{
+                           width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+        #Services{
+            padding: 15px 0px;
+            .drzacServis{
+                .ServisBlok{padding: 15px;
+                    i{
+                        font-size: 18px;
+                    }
+                    h3{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        #Projects{
+            padding: 15px 0px;
+            .ProjectNaslov{
+                h2{
+                    font-size: 14px;
+                    letter-spacing: normal;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+            .projectsDrzac{
+                width: 95%;
+                .projectBlok, .projectBlok2{
+                    p{
+                        font-size: 13px;
+                        word-spacing: normal;
+                    }
+                }
+            }
+        }
+        #Contact{
+            padding: 15px 0px;
+            .ContactNaslov{
+                h2{
+                    font-size: 14px;
+                }
+            }
+            .drzacContact{
+                .pozadinaForma{
+                   padding: 7px 0px;
+                   form{
+                    .red{
+                        width: 97%;
+                        input[type=text]{
+                            margin: 7px 0px;
+                            padding: 8px 3px;
+                            font-size: 13px;
+                        }
+                        #email, #poruka{
+                            margin: 7px 0px;
+                            padding: 8px 3px;
+                            font-size: 13px;
+                        }
+                        #send{
+                            width: 70px;
+                            font-size: 13px;
+                        }
+
+                    }
+                }
+                }
+            }
+            .linkovi{
+                margin-top: 10px;
+                    .linkNaslov{
+                        h2{
+                            font-size: 14px;
+                        }
+                    }
+                .linkoviDrzac{
+                    padding-top: 10px;
+                    ul{
+                        li{
+                            a{
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+

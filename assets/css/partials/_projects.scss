@@ -1,0 +1,62 @@
+#Projects{
+    background-color: $primary-color;
+    width: 100%;
+    padding: 78px 0px 40px;
+    .ProjectNaslov{
+        text-align: center;
+        color: $secondary-color;
+        width: 100%;
+        h2{
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    .projectsDrzac{
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .projectBlok{
+            width: 30%;
+            .imgProjectDrzac{
+                width: 100%;
+                a{
+                img{
+                    width: 100%;
+                    border-radius: 7px;
+                    box-shadow: 0px 0px 15px black;
+                } }
+            }
+            p{
+                font-size: 20px;
+                margin: 15px 0px;
+                text-align: center;
+                font-weight: bold;
+                word-spacing: 5px;
+            }
+
+        }
+        .projectBlok2{
+            width: 30%;
+        .imgProjectDrzac2{
+            width: 100%;
+            img{
+                width: 100%;
+                border-radius: 7px;
+                box-shadow: 0px 0px 15px black;
+            }   
+        }
+        p{
+            font-size: 20px;
+            margin: 15px 0px;
+            text-align: center;
+            font-weight: bold;
+            word-spacing: 5px;
+        }
+    }
+}}

@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    background-color: $secondary-color;
+    position: fixed;
+    box-shadow: 0px 0px 10px black;
+    .drzacHeder{
+        width: 80%;
+        margin: 0px auto;
+        padding: 5px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    .logo{
+        
+        :hover{
+            scale: 1.03;
+            transition: 0.55s;
+        }
+    }
+    nav{
+        width: 50%;
+        text-align: right;
+        ul{ display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    letter-spacing: 2px;
+                    color: $primary-color;
+                    font-weight: 700; 
+                    &:hover {
+                        color: $span-color;
+                        transition: 0.55s;
+                    } 
+                }
+                
+            }
+        }
+    }
+}}

@@ -1,0 +1,71 @@
+#AboutMe{
+    width: 100%;
+    background-color: $primary-color;
+    padding: 78px 0px;
+    .naslov{
+        text-align: center;
+        width: 100%;
+    h2{
+        color: $secondary-color;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    } }
+    .drzacOmeni{
+        width: 80%;
+        margin: 0px auto;
+    .red{
+        margin-top: 30px;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        .blokOmeniInfo{
+            padding: 30px;
+            border: 2px solid $secondary-color;
+            border-radius: 7px;
+            width: 47%;
+            font-weight: bold;
+            font-size: 20px;
+            color:$secondary-color;
+            line-height: 1.5;
+            box-shadow: 0px 0px 15px #454545;
+            .space{
+                word-spacing: 10px;
+            }
+            .MarginP{
+                margin-top: 35px;
+            }
+        }
+        .blokOmeni{
+            width: 47%;
+            padding: 55px 30px 30px; 
+            border: 2px solid $secondary-color;
+            border-radius: 7px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 1.7;
+            font-weight: bold;
+            color: $secondary-color;
+            box-shadow: 0px 0px 15px #454545;
+            .dugme{
+                width: 100px;
+                margin: 20px auto;
+                padding: 5px 3px;
+                background-color: $secondary-color;
+                border-radius: 10px;
+                &:hover{
+                    background-color: $dugme-color;
+                    transition: 0.6s;
+                }
+                a{
+                    text-decoration: none;
+                    color: $primary-color;
+                    &:hover{
+                        color: $secondary-color;
+                        transition: 0.7s;
+                    }
+                }
+            }
+        } 
+    } 
+} } 

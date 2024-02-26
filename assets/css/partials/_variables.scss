@@ -1,0 +1,27 @@
+$primary-color: #bbb;
+$secondary-color: #0d1f23;
+$span-color: #85b848;
+$dugme-color: #2d4a53;
+$gradient-color1: #132e35;
+$gradient-color2: #69818d;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 9px;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    background: $primary-color;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $secondary-color;
+    border: 1px solid $dugme-color;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: $dugme-color;
+  }
